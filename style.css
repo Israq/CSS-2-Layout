@@ -68,3 +68,23 @@ body {
     padding: 10px;
     box-sizing: border-box;
 }
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width:600) {
+    #main{
+        width: 100%;
+        float: none;
+    }    
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
